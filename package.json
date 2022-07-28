@@ -1,0 +1,31 @@
+{
+  "name": "ts-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ethan199412/ts-npm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ethan199412/ts-npm/issues"
+  },
+  "homepage": "https://github.com/Ethan199412/ts-npm#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "babel-loader": "^8.2.5",
+    "ts-loader": "^9.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "main": "dist/bundle.js"
+}

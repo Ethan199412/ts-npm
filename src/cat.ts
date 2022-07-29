@@ -4,7 +4,7 @@ interface ICat {
     age: number
 }
 
-class Cat {
+export class Cat {
     name: string
     color: string
     age: number

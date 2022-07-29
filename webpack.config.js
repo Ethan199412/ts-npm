@@ -5,7 +5,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "./dist/"),
         publicPath: "http://localhost:3001/dist/",
-        filename: "bundle.js"
+        filename: "bundle.js",
+        libraryTarget: 'umd'
     },
     module: {
         rules: [
